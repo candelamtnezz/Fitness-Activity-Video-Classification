@@ -1,0 +1,21 @@
+###  requirements.txt
+
+
+numpy==2.2.5
+tensorflow==2.20.0
+tensorflow-hub
+opencv-python
+tqdm
+scikit-learn
+matplotlib
+seaborn
+ipykernel
+
+### step by step in conda:
+
+conda create -n workout_vision python=3.10 -y
+conda activate workout_vision
+pip install tensorflow==2.20.0 tensorflow-hub numpy==2.2.5
+pip install opencv-python tqdm scikit-learn matplotlib seaborn
+pip install ipykernel
+python -m ipykernel install --user --name workout_vision --display-name "Python 3 (workout_vision)"
